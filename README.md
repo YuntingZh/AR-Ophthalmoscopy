@@ -1,2 +1,7 @@
 # AR-Ophthalmoscopy
-This application can benefit direct ophthalmoscopy teaching worldwide given its easy access for medical students, residents and general practitioners who might have access to a direct ophthalmoscope but may not have the background to use it well. Additionally, the indirect ophthalmoscopy simulator feature will not need the use of an expensive headset since it will simulate the entire clinical scenario within a simulated lens in the user’s smartphone screen; it could easily impact the resident’s proper training by offering an additional practice tool. Current available ophthalmoscopy simulators have previously shown positive results in medical education.
+![image](https://user-images.githubusercontent.com/100269093/165049740-d134cb71-0999-488d-add9-33cce4a0fd33.png)
+Project platforms:
+Smartphone & VR application functionalities:
+● Smart Phone (Android / IOS)
+● VR Headset (Oculus Quest)
+● Web XR
