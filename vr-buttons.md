@@ -9,3 +9,7 @@ Testing it: since the buttons are on the table, when looking at model's face, yo
 We decided to make a floating control panel instead.
 
 ![](<.gitbook/assets/image (10).png>)![](<.gitbook/assets/image (4).png>)
+
+on the LeftHand wrist we had a red button which use OntriggerEnter() to show the floating panel, which contains the buttons to control model's movements
+
+![](.gitbook/assets/IMG\_4966.jpg)
