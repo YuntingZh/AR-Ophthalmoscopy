@@ -71,7 +71,7 @@ We decided to make a floating control panel instead.
 
 on the LeftHand wrist we had a red button which use OntriggerEnter() to show the floating panel, which contains the buttons to control model's movements
 
-![](.gitbook/assets/IMG\_4966.jpg)
+![](<.gitbook/assets/IMG\_4966 (1).jpg>)
 
 ```
   private void OnTriggerEnter(Collider other)
