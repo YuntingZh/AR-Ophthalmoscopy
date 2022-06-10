@@ -8,4 +8,4 @@ Testing it: since the buttons are on the table, when looking at model's face, yo
 
 We decided to make a floating control panel instead.
 
-![](<.gitbook/assets/image (10).png>)
+![](<.gitbook/assets/image (10).png>)![](<.gitbook/assets/image (4).png>)

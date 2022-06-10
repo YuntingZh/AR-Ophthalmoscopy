@@ -93,7 +93,7 @@ and for the eyes, we set their rotation because we made the changes ourselves pr
 
 The figure and the seat are done with the animation we recorded. The value that slider passes will affect the height of the seat.
 
-![](<.gitbook/assets/image (4).png>)
+![](<.gitbook/assets/image (4) (1).png>)
 
 ```csharp
  this.GetComponent<Animator>().SetFloat("motionTime", PatientSlider.GetComponent<Slider>().value);
