@@ -4,21 +4,19 @@ description: BlendTriee.cs
 
 # joystick + slider
 
-
-
 **Before:** we recorded the animations, set as trigger and used 9 buttons to call each of them at one time
 
-![](.gitbook/assets/image.png)![](<.gitbook/assets/image (7).png>)
+![](<.gitbook/assets/image (2).png>) ![](<.gitbook/assets/image (7).png>)
 
 **Updated:** we use joy stick to control patient's eye movement and slider to control sitting position
 
-![](<.gitbook/assets/image (1).png>)![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (1) (1).png>) ![](<.gitbook/assets/image (6).png>)
 
-![](<.gitbook/assets/image (5).png>)![](<.gitbook/assets/image (9).png>)
+![](<.gitbook/assets/image (5) (1).png>) ![](<.gitbook/assets/image (9).png>)
 
-**This is how to works:**&#x20;
+**This is how to works:**
 
-This script is attached to the character model. When the character model is instantiate in a new scene, it tries to find the joystick and slider in the scene and get the corresponding inputs to change the position of the eyes and eyelids as well as the character and the chair.&#x20;
+This script is attached to the character model. When the character model is instantiate in a new scene, it tries to find the joystick and slider in the scene and get the corresponding inputs to change the position of the eyes and eyelids as well as the character and the chair.
 
 ```csharp
  GameObject root = GameObject.Find("Canvas");
@@ -67,7 +65,6 @@ This script is attached to the character model. When the character model is inst
         {
             up = down = 0;
         }
-
 ```
 
 For the eyelids, we directly use the values of the blendershapes that come with the model.
@@ -85,7 +82,7 @@ For the eyelids, we directly use the values of the blendershapes that come with 
         skin.SetBlendShapeWeight(29, down);
 ```
 
-and for the eyes, we set their rotation because we made the changes ourselves previously.&#x20;
+and for the eyes, we set their rotation because we made the changes ourselves previously.
 
 ```csharp
         EyeLtoR = (input.x + 1) / (1 + 1) * (25 + 15) - 15;
@@ -102,9 +99,9 @@ The figure and the seat are done with the animation we recorded. The value that 
  this.GetComponent<Animator>().SetFloat("motionTime", PatientSlider.GetComponent<Slider>().value);
 ```
 
-For joystick I exported a package. By commenting out the following lines, the joystick can remain in any position instead of returning to the center point.&#x20;
+For joystick I exported a package. By commenting out the following lines, the joystick can remain in any position instead of returning to the center point.
 
-![EasyJoystick](<.gitbook/assets/image (2).png>)
+![EasyJoystick](<.gitbook/assets/image (2) (1).png>)
 
 In addition, the MoveInput is only x and y in our case.
 
