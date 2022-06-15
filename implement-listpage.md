@@ -1,7 +1,5 @@
 # Implement ListPage
 
-![](<.gitbook/assets/image (3).png>)
-
 ![](<.gitbook/assets/image (9).png>)
 
 create a scroll view for the buttons
