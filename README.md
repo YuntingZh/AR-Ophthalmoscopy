@@ -1,5 +1,4 @@
 # README
 
-[![Everything Is here](https://yt-embed.herokuapp.com/embed?v=SeZWd4VCrD0)](\[https:/www.youtube.com/watch)
-
-* [Table of contents](<Table of contents.md>)
+- [XR Ophthalmoscopy Demo video](https://www.youtube.com/watch?v=SeZWd4VCrD0)
+- [AR Update](AR_joystickAndSlider.md)
